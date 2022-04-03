@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:ns4="http://purl.org/dc/terms/"
+	xmlns:ns5="http://www.w3.org/2008/05/skos-xl#"
+	xmlns:ns6="http://publications.europa.eu/ontology/authority/" >
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/continent">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology" />
+    <rdfs:label xml:lang="en">Continent</rdfs:label>
+    <owl:imports rdf:resource="http://publications.europa.eu/ontology/euvoc" />
+    <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Continent</rdfs:comment>
+    <owl:versionInfo>20210317-0</owl:versionInfo>
+    <skos:prefLabel xml:lang="en">Continent</skos:prefLabel>
+    <ns4:identifier>http://publications.europa.eu/resource/authority/continent</ns4:identifier>
+    <ns5:prefLabel rdf:nodeID="b74059064" />
+    <ns6:prefLabel xml:lang="en">Continent</ns6:prefLabel>
+    <ns6:table.id>continent</ns6:table.id>
+    <ns6:table.version.number>20210317-0</ns6:table.version.number>
+    <owl:versionIRI rdf:resource="http://publications.europa.eu/resource/authority/continent/20210317-0" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/continent/AFRICA">
+    <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/continent" />
+    <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/continent" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/continent/AMERICA">
+    <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/continent" />
+    <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/continent" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/continent/ANTARCTICA">
+    <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/continent" />
+    <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/continent" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/continent/ASIA">
+    <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/continent" />
+    <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/continent" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/continent/EUROPE">
+    <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/continent" />
+    <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/continent" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/continent/OCEANIA">
+    <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/continent" />
+    <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/continent" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/continent/OP_DATPRO">
+    <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/continent" />
+    <skos:topConceptOf rdf:resource="http://publications.europa.eu/resource/authority/continent" />
+  </rdf:Description>
+</rdf:RDF>
